@@ -1,8 +1,6 @@
 import src.triangulo.triangulo as triangulo
 
 class Testclass:
-    def test_triangulo1(self):
-        assert triangulo.triangulo(1,2,3) == "não é um triangulo"
     def test_triangulo2(self):
         assert triangulo.triangulo(0,0,0) == "não é um triangulo"
     def test_triangulo3(self):
